@@ -1,0 +1,31 @@
+.card{
+    background:red;
+    margin:200px 500px 200px 500px;
+    border-radius: 10%;
+}
+
+.card img{
+  height: 90px;
+  width: 90px;
+  border-radius: 50px;
+  align-self: center;
+}
+
+.card{
+  text-align: center;
+  margin-top: 30px;
+}
+
+.card p{
+    display: block;
+}
+
+.name{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+#city{
+  margin-top:10px;
+  margin-bottom:10px;
+}
