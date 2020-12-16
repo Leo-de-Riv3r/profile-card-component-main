@@ -1,7 +1,9 @@
 .card{
     background:red;
+    justify-content: center;
+    align-self: center;
     margin:200px 500px 200px 500px;
-    border-radius: 10%;
+    border-radius: 50px;
 }
 
 .card img{
@@ -16,10 +18,6 @@
   margin-top: 30px;
 }
 
-.card p{
-    display: block;
-}
-
 .name{
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
@@ -27,5 +25,33 @@
 
 #city{
   margin-top:10px;
-  margin-bottom:10px;
+  margin-bottom:15px;
+}
+
+.info{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-muted{
+  font-size:13px;
+}
+.info{
+  display: inline-block;
+  margin-left: 0% !important;
+}
+.followers{
+  background: red;
+  float:left;
+  width: 92.5px;
+}
+.likes{
+  background: green;
+  float:left;
+  width: 92.5px;
+}
+.photos{
+  background: blue;
+  float: left;
+  width: 92.5px;
 }
